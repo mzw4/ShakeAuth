@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2706D1421BFE269000FE1716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706D1411BFE269000FE1716 /* AppDelegate.swift */; };
+		2706D1441BFE269000FE1716 /* ShakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2706D1431BFE269000FE1716 /* ShakeViewController.swift */; };
+		2706D1471BFE269000FE1716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2706D1451BFE269000FE1716 /* Main.storyboard */; };
+		2706D14A1BFE269000FE1716 /* ShakeAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2706D1481BFE269000FE1716 /* ShakeAuth.xcdatamodeld */; };
+		2706D14C1BFE269000FE1716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2706D14B1BFE269000FE1716 /* Assets.xcassets */; };
+		2706D14F1BFE269000FE1716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2706D14D1BFE269000FE1716 /* LaunchScreen.storyboard */; };
+		272D10051BFE28400056530C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D10041BFE28400056530C /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		272D10071BFE29B60056530C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D10061BFE29B60056530C /* Constants.swift */; settings = {ASSET_TAGS = (); }; };
+		272D10091BFE2B520056530C /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D10081BFE2B520056530C /* Util.swift */; settings = {ASSET_TAGS = (); }; };
+		272D100D1BFE31F10056530C /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D100C1BFE31F10056530C /* RequestHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		272D100F1BFE347E0056530C /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272D100E1BFE347E0056530C /* DataHandler.swift */; settings = {ASSET_TAGS = (); }; };
+		82493531C86B341991ADC77A /* Pods_ShakeAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B784D97A89611397DC0BE5D /* Pods_ShakeAuth.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2706D13E1BFE269000FE1716 /* ShakeAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2706D1411BFE269000FE1716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2706D1431BFE269000FE1716 /* ShakeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeViewController.swift; sourceTree = "<group>"; };
+		2706D1461BFE269000FE1716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2706D1491BFE269000FE1716 /* ShakeAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShakeAuth.xcdatamodel; sourceTree = "<group>"; };
+		2706D14B1BFE269000FE1716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2706D14E1BFE269000FE1716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2706D1501BFE269000FE1716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		272D10041BFE28400056530C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		272D10061BFE29B60056530C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		272D10081BFE2B520056530C /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		272D100C1BFE31F10056530C /* RequestHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		272D100E1BFE347E0056530C /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		2B784D97A89611397DC0BE5D /* Pods_ShakeAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShakeAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		639AAD8BF5E1C1556F241786 /* Pods-ShakeAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeAuth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeAuth/Pods-ShakeAuth.debug.xcconfig"; sourceTree = "<group>"; };
+		66EB31B812BAE5B3EB35F443 /* Pods-ShakeAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShakeAuth.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShakeAuth/Pods-ShakeAuth.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2706D13B1BFE269000FE1716 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82493531C86B341991ADC77A /* Pods_ShakeAuth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2706D1351BFE269000FE1716 = {
+			isa = PBXGroup;
+			children = (
+				2706D1401BFE269000FE1716 /* ShakeAuth */,
+				2706D13F1BFE269000FE1716 /* Products */,
+				FAE4CEFE930AE2C08A89C720 /* Pods */,
+				F3494C0E90225655A67DBE6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2706D13F1BFE269000FE1716 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2706D13E1BFE269000FE1716 /* ShakeAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2706D1401BFE269000FE1716 /* ShakeAuth */ = {
+			isa = PBXGroup;
+			children = (
+				2706D1411BFE269000FE1716 /* AppDelegate.swift */,
+				2706D1431BFE269000FE1716 /* ShakeViewController.swift */,
+				272D10041BFE28400056530C /* LoginViewController.swift */,
+				2706D1451BFE269000FE1716 /* Main.storyboard */,
+				2706D14B1BFE269000FE1716 /* Assets.xcassets */,
+				2706D14D1BFE269000FE1716 /* LaunchScreen.storyboard */,
+				2706D1501BFE269000FE1716 /* Info.plist */,
+				272D100E1BFE347E0056530C /* DataHandler.swift */,
+				272D10101BFE4B090056530C /* Util */,
+				2706D1481BFE269000FE1716 /* ShakeAuth.xcdatamodeld */,
+			);
+			path = ShakeAuth;
+			sourceTree = "<group>";
+		};
+		272D10101BFE4B090056530C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				272D100C1BFE31F10056530C /* RequestHandler.swift */,
+				272D10081BFE2B520056530C /* Util.swift */,
+				272D10061BFE29B60056530C /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		F3494C0E90225655A67DBE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B784D97A89611397DC0BE5D /* Pods_ShakeAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE4CEFE930AE2C08A89C720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				639AAD8BF5E1C1556F241786 /* Pods-ShakeAuth.debug.xcconfig */,
+				66EB31B812BAE5B3EB35F443 /* Pods-ShakeAuth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2706D13D1BFE269000FE1716 /* ShakeAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2706D1531BFE269000FE1716 /* Build configuration list for PBXNativeTarget "ShakeAuth" */;
+			buildPhases = (
+				28173C45568D009DD1A24E6C /* Check Pods Manifest.lock */,
+				2706D13A1BFE269000FE1716 /* Sources */,
+				2706D13B1BFE269000FE1716 /* Frameworks */,
+				2706D13C1BFE269000FE1716 /* Resources */,
+				97DBC0E97337D3FFAE40B4AC /* Embed Pods Frameworks */,
+				4E9DAE0C5ED6FCD51456B6E7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeAuth;
+			productName = ShakeAuth;
+			productReference = 2706D13E1BFE269000FE1716 /* ShakeAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2706D1361BFE269000FE1716 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Cornell Tech";
+				TargetAttributes = {
+					2706D13D1BFE269000FE1716 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = W9N77F6KZT;
+					};
+				};
+			};
+			buildConfigurationList = 2706D1391BFE269000FE1716 /* Build configuration list for PBXProject "ShakeAuth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2706D1351BFE269000FE1716;
+			productRefGroup = 2706D13F1BFE269000FE1716 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2706D13D1BFE269000FE1716 /* ShakeAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2706D13C1BFE269000FE1716 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2706D14F1BFE269000FE1716 /* LaunchScreen.storyboard in Resources */,
+				2706D14C1BFE269000FE1716 /* Assets.xcassets in Resources */,
+				2706D1471BFE269000FE1716 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28173C45568D009DD1A24E6C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E9DAE0C5ED6FCD51456B6E7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShakeAuth/Pods-ShakeAuth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97DBC0E97337D3FFAE40B4AC /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShakeAuth/Pods-ShakeAuth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2706D13A1BFE269000FE1716 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272D10071BFE29B60056530C /* Constants.swift in Sources */,
+				272D10091BFE2B520056530C /* Util.swift in Sources */,
+				272D10051BFE28400056530C /* LoginViewController.swift in Sources */,
+				2706D14A1BFE269000FE1716 /* ShakeAuth.xcdatamodeld in Sources */,
+				272D100F1BFE347E0056530C /* DataHandler.swift in Sources */,
+				2706D1441BFE269000FE1716 /* ShakeViewController.swift in Sources */,
+				272D100D1BFE31F10056530C /* RequestHandler.swift in Sources */,
+				2706D1421BFE269000FE1716 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2706D1451BFE269000FE1716 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2706D1461BFE269000FE1716 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2706D14D1BFE269000FE1716 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2706D14E1BFE269000FE1716 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2706D1511BFE269000FE1716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2706D1521BFE269000FE1716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2706D1541BFE269000FE1716 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 639AAD8BF5E1C1556F241786 /* Pods-ShakeAuth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ShakeAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ShakeAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		2706D1551BFE269000FE1716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66EB31B812BAE5B3EB35F443 /* Pods-ShakeAuth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = ShakeAuth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.ShakeAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2706D1391BFE269000FE1716 /* Build configuration list for PBXProject "ShakeAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2706D1511BFE269000FE1716 /* Debug */,
+				2706D1521BFE269000FE1716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2706D1531BFE269000FE1716 /* Build configuration list for PBXNativeTarget "ShakeAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2706D1541BFE269000FE1716 /* Debug */,
+				2706D1551BFE269000FE1716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2706D1481BFE269000FE1716 /* ShakeAuth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2706D1491BFE269000FE1716 /* ShakeAuth.xcdatamodel */,
+			);
+			currentVersion = 2706D1491BFE269000FE1716 /* ShakeAuth.xcdatamodel */;
+			path = ShakeAuth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2706D1361BFE269000FE1716 /* Project object */;
+}
